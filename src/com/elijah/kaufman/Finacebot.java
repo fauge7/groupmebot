@@ -34,7 +34,11 @@ public class Finacebot extends TimerTask{
 		// TODO Auto-generated method stub
 	    Bot bot = new Bot(botID);
 	    System.out.println("sending message to group chat");
-		bot.sendTextMessage("the date and time is " + date);
+		bot.sendTextMessage("Democratic: It appears that the computer specialist for hillary clinton might have asked for online help"
+				+ "source: http://motherboard.vice.com/read/hillary-clinton-tech-guy-asked-reddit-for-email-advice");
+		bot.sendTextMessage(" Republican: Donald Trump suggests that the debate system is a little biased towads democrats"
+				+ "http://www.businessinsider.com/donald-trump-presidential-debate-phony-system-rigged-moderators-2016-9");
+		
 	}
 
 }
