@@ -7,8 +7,6 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import github.io.wreed12345.Bot;
-
 public class Finacebot extends TimerTask{
 	final String botID= "6a1350e1f939425d6a3edb817d";
 	static DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
