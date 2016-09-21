@@ -15,7 +15,7 @@ public class Finacebot extends TimerTask{
 	public static void main(String[] args) {
 		Date date;
 		try {
-			date = dateFormatter.parse("2016-09-20 07:07:00");
+			date = dateFormatter.parse("2016-09-21 07:07:00");
 			System.out.println(date);
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
@@ -32,10 +32,8 @@ public class Finacebot extends TimerTask{
 		// TODO Auto-generated method stub
 	    Bot bot = new Bot(botID);
 	    System.out.println("sending message to group chat");
-		bot.sendTextMessage("Democratic: It appears that the computer specialist for hillary clinton might have asked for online help"
-				+ "source: http://motherboard.vice.com/read/hillary-clinton-tech-guy-asked-reddit-for-email-advice");
-		bot.sendTextMessage(" Republican: Donald Trump suggests that the debate system is a little biased towads democrats"
-				+ "http://www.businessinsider.com/donald-trump-presidential-debate-phony-system-rigged-moderators-2016-9");
+		bot.sendTextMessage(" Republican: Donald Trump used his charity to fund his legal disputes"
+				+ "https://www.washingtonpost.com/politics/trump-used-258000-from-his-charity-to-settle-legal-problems/2016/09/20/adc88f9c-7d11-11e6-ac8e-cf8e0dd91dc7_story.html");
 		
 	}
 
